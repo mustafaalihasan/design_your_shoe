@@ -2,7 +2,7 @@ import { Canvas } from '@react-three/fiber'
 import { Environment, Center } from '@react-three/drei';
 
 import Shoe from './Shoe';
-import Backdrop from './backdrop';
+import Backdrop from './Backdrop';
 import CameraRig from './CameraRig.jsx';
 
 
