@@ -60,7 +60,7 @@ const Customizer = () => {
       // call our backend to generate an ai image
       setGenereatingImg(true);
 
-      const response = await fetch('https://design-your-shoe.onrender.com//api/v1/dalle', {
+      const response = await fetch('https://design-your-shoe.onrender.com/api/v1/dalle', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
